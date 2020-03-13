@@ -31,3 +31,8 @@ $ npm stop
 
 
 [egg]: https://eggjs.org
+后端egg框架 配合mongoose 使用
+主要完成 
+注册功能的 图片验证码 邮箱验证码 JWT验证
+搭配MongoDB的使用
+前端nuxt框架
