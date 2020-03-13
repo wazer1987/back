@@ -30,6 +30,7 @@ module.exports = appInfo => {
         enable: false,
       },
     },
+    // 配置mongoose
     mongoose: {
       client: {
         url: 'mongodb://127.0.0.1:27017/test',
@@ -37,6 +38,10 @@ module.exports = appInfo => {
 
         },
       },
+    },
+    // 配置jwt
+    jwt: {
+      secret: 'wangzhengjwt',
     },
   };
 };

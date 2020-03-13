@@ -1,10 +1,13 @@
 'use strict';
 
 const Service = require('egg').Service;
+// 这个是自动给你的邮箱发送验证码的模块
 const nodemailer = require('nodemailer');
+// 这个是生成图片验证码的模块
 const svgCaptcha = require('svg-captcha');
 
 const userEmail = '1052101962@qq.com';
+// 配置了自动往邮箱里生成验证码的模块
 const transporter = nodemailer.createTransport({
   service: 'qq',
   port: 465,
